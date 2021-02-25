@@ -1,7 +1,7 @@
 """CLI application for a prefix-notation calculator."""
 
 from arithmetic import (add, subtract, multiply, divide, square, cube,
-                        power, mod, )
+                        power, mod, add_mult, add_cubes)
 
 while True:
     equation = input("Enter your equation here > ")
@@ -24,7 +24,14 @@ while True:
     elif equation_list[0] == "power":
         print(power(int(equation_list[1]), int(equation_list[2])))
     elif equation_list[0] == "mod":
-        print(mod(int(equation_list[1]), int(equation_list[2])))
+        print(mod(int(equation_list[1]), int(equation_list[2])))    
+    elif equation_list[0] == "x+":
+        print(add_mult(int(equation_list[1]), int(equation_list[2]), int(equation_list[3])))
+    elif equation_list[0] == "cubes+":
+        print(add_cubes(int(equation_list[1]), int(equation_list[2])))
+
+
+
     
 
 
