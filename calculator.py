@@ -10,5 +10,21 @@ while True:
     if equation_list[0] == "q":
         break
     elif equation_list[0] == "+":
-        print(add(equation_list[1], equation_list[2]))
+        print(add(int(equation_list[1]), int(equation_list[2])))
+    elif equation_list[0] == "-":
+        print(subtract(int(equation_list[1]), int(equation_list[2])))
+    elif equation_list[0] == "*":
+        print(multiply(int(equation_list[1]), int(equation_list[2])))
+    elif equation_list[0] == "/":
+        print(divide(int(equation_list[1]), int(equation_list[2])))
+    elif equation_list[0] == "square":
+        print(square(int(equation_list[1])))
+    elif equation_list[0] == "cube":
+        print(cube(int(equation_list[1])))
+    elif equation_list[0] == "power":
+        print(power(int(equation_list[1]), int(equation_list[2])))
+    elif equation_list[0] == "mod":
+        print(mod(int(equation_list[1]), int(equation_list[2])))
+    
+
 
