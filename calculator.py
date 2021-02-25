@@ -7,7 +7,7 @@ while True:
     equation = input("Enter your equation here > ")
     equation_list = equation.split(" ")
 
-    if equation_list[0] == "q":
+    if equation_list[0].lower().startswith("q"):
         break
     elif equation_list[0] == "+":
         print(add(int(equation_list[1]), int(equation_list[2])))
