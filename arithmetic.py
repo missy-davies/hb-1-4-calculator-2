@@ -42,7 +42,10 @@ def power(num1, num2):
     """Raise num1 to the power of num2 and return the value."""
 
     pow = num1 ** num2
-    return pow
+    return pow 
 
 def mod(num1, num2):
     """Return the remainder of num1 / num2."""
+
+    modulus = num1 % num2
+    return modulus 
