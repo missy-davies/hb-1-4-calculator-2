@@ -49,3 +49,8 @@ def mod(num1, num2):
 
     modulus = num1 % num2
     return modulus 
+
+def add_mult(num1, num2, num3):
+    output =(num1 + num2) * num3
+    return output 
+    
