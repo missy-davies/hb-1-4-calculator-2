@@ -16,6 +16,9 @@ power 1 2: to get one number raised to the power of a second number
 mod 1 2: to get the remainder of one number divided by a second number 
 x+ 1 2 3: to get (num1 + num2) * num3
 cubes+ 1 2: to take two numbers, then add together the cubes of those numbers
+
+You may also quit at any time by typing 'q' or 'quit'.
+Happy calculating! 
 """)
 
 while True:
